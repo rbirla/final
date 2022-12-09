@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+    
+    label {
+        display: inline;
+        margin: 10px;
+    }
+    input{
+        margin: 10px;
+    }
+</style>
+<body>
+    <fieldset>
+        <h1>Register</h1>
+        <form action="/Register" method="post" >
+            <label for="Email">Email</label>
+            <input type="email" name="email">
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="">
+            <br>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+        <h3><a href="/home">Go Home</a></h3>
+    </fieldset>
+</body>
+</html>
